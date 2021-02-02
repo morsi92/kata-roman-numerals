@@ -2,6 +2,12 @@
 Write a number with roman symbols.
 Here is its Wikipedia definition : https://fr.wikipedia.org/wiki/Num%C3%A9ration_romaine
 
+Examples of Roman symbols :
+
+Roman symbol | I | IV | V | IX | X | XX | XL | L | XC | C |
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |
+Value | 1 | 4 | 5 | 9 | 10 | 20 | 40 | 50 | 90 | 100 |
+
 
 ## TDD
 The aim of this kata is to practise TDD and to have a good 
@@ -33,11 +39,15 @@ Cycles of the roman numerals kata :
 
 ## Unit Test
 ### F.I.R.S.T
-F Fast
-I Independant (or Isolated)
-R Repeatable
-S Self validating
-T Timely
+**F** Fast
+
+**I** Independant (or Isolated)
+
+**R** Repeatable
+
+**S** Self validating
+
+**T** Timely
 
 ### But, when a test is not considered as TU ?!
  - when it queries DB,
